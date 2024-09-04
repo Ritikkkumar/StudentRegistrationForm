@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(darkblue,skyblue);
+}
+#main{
+    display: flex;
+     
+}
+header{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    width:400px;
+    height:30px;
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white; 
+}
+#StudentDetails{
+    margin-top:40px;
+    width:150px;
+    height:35px;
+    font-size: large;
+}
+#list{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 500px;
+    overflow-y:scroll;
+}
+.listDiv{
+    height:80px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.buttons{
+    height: 30px;
+    width:80px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.resetButton{
+    margin-top:40px;
+    width:150px;
+    height:35px;
+    font-size: large;
+    margin-left: 20px;
+    visibility: hidden;
+    color:white;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+#titles{
+    display:flex;
+    gap:30px;
+    color: white;
+    font-size:25px;
+    font-weight: bold;
+    margin-right: 170px;
+}

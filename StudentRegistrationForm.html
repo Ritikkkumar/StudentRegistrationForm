@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="StudentRegistrationForm.css">
+    <script src="StudentRegistrationForm.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        </header>
+        <div id="main">
+    <section id="form">
+        <form onsubmit="return false">
+            <div class="label">Student Name:</div>
+            <input  id="StudentName" name="StudentName" type="text">
+
+            <div class="label">Student Id:</div>
+            <input  id="StudentId" name="StudentId" type="text">
+
+            <div class="label">Class:</div>
+            <input  id="Class" name="StudentName" type="number" maxlength="2" max="12">
+
+            <div class="label">Roll No.:</div>
+            <input  id="RollNo" name="StudentName" type="number">
+            <br/>
+            <input type="submit" id="StudentDetails">
+           
+        </form>
+        <!-- <button id="ResetButton" >Reset</button> -->
+    </section>
+    <section id="list">
+        <div id="titles">
+            <p class="titleTexts">Name</p>
+            <p class="titleTexts">StudentId</p>
+            <p class="titleTexts">Class</p>
+            <p class="titleTexts">Roll No.</p>
+        </div>
+    </section>
+</div>
+</body>
+</html>
